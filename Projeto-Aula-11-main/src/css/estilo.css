@@ -1,0 +1,40 @@
+
+:root{
+    --body-font: "Arial", "serif";
+    --color1: #000;
+    --color2: #0c0c23;
+    --color3: #022530;
+    --color4: #054961;
+    --color5: #fff;
+    --color6: #ffff00;
+    --color7: hsl(0, 80%, 90%);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+html{
+    /*Técnica do root font-size: 62.5%*/
+    font-size: 62.5%;
+}
+body{
+    font-family: var(--body-font);
+    background: var(--color3);
+    line-height: 1.5;
+}
+
+header{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+#logo{
+    padding: 20px;
+    width: 150px;
+    height: 100px;
+}
